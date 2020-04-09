@@ -66,5 +66,5 @@ cm=confusion_matrix(y_test, y_pred)
 # test_one_customer
 one_customer=np.array([[0.0,0,600,1,40,3,60000,2,1,1,50000]])
 one_customer=sc.transform(one_customer)
-y_homework2=classifier.predict(one_customer)
-print(y_homework2)
+prediction_onecustomer=classifier.predict(one_customer)
+print(prediction_onecustomer)
